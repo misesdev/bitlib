@@ -1,0 +1,15 @@
+{
+  "name": "bitcoin-tx",
+  "version": "0.0.1",
+  "description": "\"A lib for build bitcoin transactions\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "utxo"
+  ],
+  "author": "Mises Dev",
+  "license": "MIT"
+}
