@@ -3,8 +3,10 @@
     "version": "0.0.1",
     "description": "A lib for build bitcoin transactions",
     "main": "index.js",
+    "type": "index.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "tsc ./src/index.ts",
+        "test": "jest"
     },
     "keywords": [
         "bitcoin",
@@ -15,6 +17,12 @@
     "author": "Mises Dev",
     "license": "MIT",
     "dependencies": {
+        "elliptic": "^6.5.7",
         "jest": "^29.7.0"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.13",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2"
     }
 }
