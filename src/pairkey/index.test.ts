@@ -36,5 +36,12 @@ describe("pairkey tests", () => {
 
         expect(keypair.verify("fff16567", signature)).toBe(true)
     })
+    it("generate a bitcoin address", () => {
+        const keypair = new PairKey()
+
+        const address = keypair.getAddress()
+
+        expect(address).toBeDefined()
+    })
 
 })
